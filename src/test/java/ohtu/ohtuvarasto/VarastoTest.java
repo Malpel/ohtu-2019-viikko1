@@ -68,7 +68,7 @@ public class VarastoTest {
 
     @Test
     public void uudellaVarastollaOikeaAlkusaldo() {
-        varasto = new Varasto(10, 5);
+        varasto = new Varasto(10, 4);
         assertEquals(5, varasto.getSaldo(), vertailuTarkkuus);
     }
 
